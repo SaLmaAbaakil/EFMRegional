@@ -1,15 +1,19 @@
+import React from 'react';
 import { Provider } from 'react-redux';
-import store from './EFMRegional/exercice4/Store/store';
-import ListeArticle from './EFMRegional/exercice4/compenenets/ListeArticle';
+import store from './Employees/store/store';
+import Composant1 from './Employees/components/composant1';
+import Composant3 from './Employees/components/composant3'; 
+
 
 function App() {
-    return (
-        <Provider store={store}>
-            <div className="container mt-4">
-                <ListeArticle />
-            </div>
-        </Provider>
-    );
+  return (
+    <Provider store={store}>
+      <div className="App">
+        <Composant1 />
+        <Composant3 /> 
+      </div>
+    </Provider>
+  );
 }
 
 export default App;

@@ -1,0 +1,35 @@
+{ 
+    "employees" : [
+
+        {
+            "id": "e1",
+            "nomEmp": "Lamrabet",
+            "prenomEmp": "Oussama",
+            "poste": "Director",
+            "departement":{
+                "codeDep":"1",
+                "nomDep":"RH"
+                }
+        },
+        {
+            "id": "e2",
+            "nomEmp": "Fares",
+            "prenomEmp": "amine",
+            "poste": "Director",
+            "departement":{
+                "codeDep":"2",
+                "nomDep":"RH"
+                }
+        },
+        {
+            "id": "e3",
+            "nomEmp": "achibi",
+            "prenomEmp": "yassine",
+            "poste": "Director",
+            "departement":{
+                "codeDep":"1",
+                "nomDep":"RH"
+                }
+        }
+    ]
+}
